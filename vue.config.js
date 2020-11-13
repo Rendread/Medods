@@ -1,3 +1,3 @@
 module.exports = {
-  publicPath: "/vue-task-medods",
+  publicPath: "/Medods",
 };
