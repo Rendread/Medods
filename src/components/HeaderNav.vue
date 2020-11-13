@@ -15,7 +15,7 @@
               <a href="/" class="header__link">Client creation form</a>
             </li>
             <li>
-              <a href="/game" class="header__link">Game</a>
+              <a href="/Medods/game" class="header__link">Game</a>
             </li>
           </ul>
         </nav>
