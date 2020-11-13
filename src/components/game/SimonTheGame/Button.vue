@@ -51,7 +51,6 @@ export default {
       if (turn != "listening" && (!$event || $event.isTrusted)) {
         return;
       }
-
       const $btn = this.$refs.btn;
       const key = $btn?.dataset?.button;
       $btn.classList.add("click");
@@ -71,7 +70,6 @@ export default {
         const keymap = { 1: 0, 2: 1, 3: 2, 4: 3 };
         const keyindex = keymap[key.toLowerCase()];
         const expected = window.$SimonTheGame.shiftSequence();
-
         if (expected == keyindex) {
           this.clearTimeout(this.$store.state.game.timerId);
           if (!!window.$SimonTheGame.sequence().length) {
@@ -97,7 +95,6 @@ export default {
   },
 };
 </script>
-
 <style lang="scss" scoped>
 button {
   border-radius: 50%;
@@ -119,7 +116,6 @@ button {
   &:focus {
     outline: none;
   }
-
   &[data-button="1"] {
     border-radius: 50% 0% 0% 0%;
   }
