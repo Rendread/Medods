@@ -12,7 +12,7 @@
         <nav class="header__menu" v-bind:class="{ active: active_burger }">
           <ul class="header__list">
             <li>
-              <a href="/" class="header__link">Client creation form</a>
+              <a href="/Medods" class="header__link">Client creation form</a>
             </li>
             <li>
               <a href="/Medods/game" class="header__link">Game</a>
